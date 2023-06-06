@@ -1,3 +1,5 @@
+// Ragány Dávid Gergő SZOFT I-2-E, 2023.06.06
+
 describe('Számítás tesztelése', () => {
     it('Teszt1: hossz: 2 lapatlo: 2.82, ', () => {
         let current = calcDiagonal(2);

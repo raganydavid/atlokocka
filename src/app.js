@@ -1,3 +1,5 @@
+// Ragány Dávid Gergő SZOFT I-2-E, 2023.06.06
+
 const doc =  {
     lengthInput: document.querySelector('#length'),
     indexInput: document.querySelector('#index'),

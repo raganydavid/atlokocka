@@ -1,3 +1,6 @@
+// Ragány Dávid Gergő SZOFT I-2-E, 2023.06.06
+
+
 describe('Bemenet tesztelése', () => {
     it('Szám', () => {
         let current = checkInput(25);
