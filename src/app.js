@@ -37,3 +37,17 @@ function calcDiagonal(length) {
 function calcBodyDiagonal(length) {
     return length * Math.sqrt(3);
 }
+
+function checkInput(input) {
+    let inputStr = String(input);
+    let inputNum = Number(input);
+    if(inputStr.match(/^[0-9.]+$/)){
+        if(inputNum > 0) {
+            return true;
+        }else {
+            return false;
+        }        
+    }else{
+        return false;
+    }    
+}
